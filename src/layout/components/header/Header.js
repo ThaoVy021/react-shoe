@@ -4,12 +4,12 @@ import './Header.styles.css'
 export default function Header() {
     return (
         <div className="header">
-            <img src={require('../../../assets/imgs/puma.png')} width="50" height="25" />
+            <img src={require('../../../assets/imgs/puma.png')} width="70" height="40" alt="Puma" />
             <div className="header_infor">
-                <a href="#">Find a Store | </a>
-                <a href="#">Help | </a>
-                <a href="#">Join Us | </a>
-                <a href="#">Sign In</a>
+                <a href="/#">Find a Store</a><div> | </div>
+                <a href="/#">Help </a><div> | </div>
+                <a href="/#">Join Us </a><div> | </div>
+                <a href="/#">Sign In</a>
             </div>
         </div>
     )
