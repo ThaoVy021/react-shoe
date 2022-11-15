@@ -1,0 +1,12 @@
+.ant-layout-header{
+    display: flex;
+    line-height: 3;
+    text-decoration: none;
+}
+.anticon{
+    line-height: 3.5;
+}
+
+.ant-menu-horizontal{
+    border-bottom: 0;
+}

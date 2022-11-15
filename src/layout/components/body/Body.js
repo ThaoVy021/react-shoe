@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-import "antd/dist/antd.css";
-
 import "../../../index.css";
 
 import {
@@ -12,8 +10,11 @@ import {
   VideoCameraOutlined,
 } from "@ant-design/icons";
 import { Layout, Menu } from "antd";
+import "antd/dist/antd.min.css";
 import "./Body.styles.css";
 import Category from "./category/Category";
+import Search from "./search/Search";
+import Favourites from "./favourites/Favourites";
 
 const { Header, Sider, Content } = Layout;
 
@@ -56,6 +57,8 @@ export default function Body() {
             }
           )}
           <Category />
+          <Search />
+          <Favourites />
         </Header>
         <Content
           className="site-layout-background"

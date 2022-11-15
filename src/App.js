@@ -1,7 +1,6 @@
-import './App.css';
-import Header from './layout/components/header/Header';
-import Category from './layout/components/body/category/Category';
-import Body from './layout/components/body/Body';
+import "./App.css";
+import Header from "./layout/components/header/Header";
+import Body from "./layout/components/body/Body";
 
 function App() {
   return (
